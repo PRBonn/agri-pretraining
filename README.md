@@ -55,7 +55,7 @@ The second table presents the result on the leaf instance segmentation task, whe
 <br/>
 Qualitative results of our method against baselines on the leaf instance segmentation task, where red arrows point to errors:
 
-![results](pics/result.png)
+![results](pics/result.pdf)
 
 Check out the [paper]() for more quantitative and qualitative results! :grin:
 
