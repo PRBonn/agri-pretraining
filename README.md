@@ -52,9 +52,9 @@ The second table presents the result on the leaf instance segmentation task, whe
 | our                             |            | **1.1** | **8.3** | **0.9** | **5.6**                  |
 
 
-
 <br/>
 Qualitative results of our method against baselines on the leaf instance segmentation task, where red arrows point to errors:
+
 ![results](pics/results.png)
 
 Check out the [paper]() for more quantitative and qualitative results! :grin:
