@@ -1,0 +1,36 @@
+experiment:
+    # barlow_twins_base is for the normal model
+    # barlow_twins_ablations run on reduced set of images, less epochs
+    id: barlow_twins_my_color    
+    seed: 1324
+
+##Data
+data:
+    path: "./../../data" # path to dataset 
+    input_size: [224,224,3] # standard dimension after BT, SimSiam transformations
+
+##Training
+train: 
+    # mode 0: embedding visualization | 1: normal pre training ! 2: small pre training for ablations
+    mode: 2 
+    n_gpus: 1
+    workers: 20
+    # max epoch for pre training is 500
+    # for ablation is 50 
+    max_epoch: 100
+    lr-weights: 0.0002
+    lr-biases: 0.0048
+    weight-decay: 1e-6
+    lambd: 0.0051
+    batch_size: 4
+
+##Network
+model:
+    name: 'resnet50'
+    momentum: 0.1
+    dropout: 0.1
+    output_stride: 32
+    projector: [8192, 8192, 8192]
+    ## DO NOT TOUCH FOLLOWING PARAMETER
+    ## UNLESS YOU CREATE ANOTHER BACKBONE 
+    embedding_size: 2048

@@ -1,0 +1,9 @@
+split-folders
+numpy
+torch
+torchvision
+pytorch_lightning
+Pillow
+tensorboard
+
+ 
