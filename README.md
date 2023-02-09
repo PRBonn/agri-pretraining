@@ -1,6 +1,6 @@
 # On Domain-Specific Pre-Training for Effective Semantic Perception in Agricultural Robotics
 
-This repo contains the code of the paper *On Domain-Specific Pre-Training for Effective Semantic Perception in Agricultural Robotics*, by [G. Roggiolani](https://github.com/theroggio) et al., submitted to the IEEE International Conference on Robotics and Automation (ICRA) 2023.
+This repo contains the code of the paper *On Domain-Specific Pre-Training for Effective Semantic Perception in Agricultural Robotics*, by [G. Roggiolani](https://github.com/theroggio) et al., accepted to the IEEE International Conference on Robotics and Automation (ICRA) 2023.
 
 ## Abstract 
 
@@ -89,7 +89,14 @@ In the jupyter-notebook `downstream\_task\_example` you can find further instruc
 ## Citation
 If you use our framework for any academic work, please cite the original [paper]()!
 
-> bibtex entry coming soon!
+```
+@inproceedings{roggiolani2023icra-odsp,
+author = {G. Roggiolani and F. Magistri and T. Guadagnino and G. Grisetti and C. Stachniss and J. Behley},
+title = {{On Domain-Specific Pre-Training for Effective Semantic Perception in Agricultural Robotics}},
+booktitle = icra,
+year = 2023,
+}
+```
 
 ## Acknowledgment
 This work has partially been funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany's Excellence Strategy, EXC-2070 -- 390732324 -- [PhenoRob](https://www.phenorob.de/), and by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under STA 1051/5-1 within the FOR 5351(AID4Crops).
