@@ -1,6 +1,6 @@
 # Self Supervised Agriculture Network
 
-Refers to <a href='https://github.com/facebookresearch/barlowtwins'>Barlow Twins (FAIR)</a> for the original PyTorch implementation of the baseline and to <a href='https://gitlab.ipb.uni-bonn.de/gianmarco.roggiolani/SSLPR'>Baseline Evaluation</a> for the experiments on the pre-trained model using PyTorch. 
+Refers to <a href='https://github.com/facebookresearch/barlowtwins'>Barlow Twins (FAIR)</a> for the original PyTorch implementation. 
 
 ## Setup
 
