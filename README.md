@@ -57,7 +57,7 @@ Qualitative results of our method against baselines on the leaf instance segment
 
 ![results](pics/result.png)
 
-Check out the [paper]() for more quantitative and qualitative results! :grin:
+Check out the [paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/roggiolani2023icra-odsp.pdf) for more quantitative and qualitative results! :grin:
 
 
 ## Code
@@ -87,7 +87,7 @@ Your weights will be saved in the experiments folder, together with the log file
 In the jupyter-notebook `downstream\_task\_example` you can find further instructions about how to load the weights into your network and implement your own downstream tasks.
 
 ## Citation
-If you use our framework for any academic work, please cite the original [paper]()!
+If you use our framework for any academic work, please cite the original [paper](https://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/roggiolani2023icra-odsp.pdf)!
 
 ```
 @inproceedings{roggiolani2023icra-odsp,
